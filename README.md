@@ -1,26 +1,38 @@
-# Code Smells Kata 
+# My "Smelly" Journey
 
-This is my implementation of the refactorings for the [Smelly Tic Tac Toe](https://github.com/AgileTechPraxis/CodeSmells/tree/master) code kata exercise. My journey is documented [here](MyJourney.md).
+[Original README](README_original.md)
 
-----
+This documentation is in reverse chronological order.
 
-**Smelly Tic Tac Toe** ([Original Exercise](https://github.com/AgileTechPraxis/CodeSmells/tree/master))
+#### #TODO - List of Code Smells:
 
-We created a very smelly implementation of TicTacToe. There are quite a few code smells in the implementation: 
+- [ ] Primitive obsession
+- [ ] Feature envy
+- [ ] Data class
+- [ ] Message chain
+- [ ] Long method
+- [ ] Comments
+- [ ] Long parameter list
+- [ ] Shotgun surgery
+- [ ] Duplicated code
+- [ ] Large class
+- [ ] Divergent change
+- [ ] Data clump
+- [ ] Lazy class
+- [ ] Dead code
 
-* Primitive obsession
-* Feature envy
-* Data class
-* Message chain
-* Long method
-* Comments
-* Long parameter list
-* Shotgun surgery
-* Duplicated code
-* Large class
-* Divergent change
-* Data clump
-* Lazy class
-* Dead code
 
-Start by identifying the smells and then slowly refactor the code. Remember to keep the tests passing at all times during the refactor. It's ok to revert back to a previous working state at any moment.
+---
+
+### Updates:
+
+
+<details>
+<summary><b>27/08/2023</b></summary>
+- Initial Commit (<a href="https://github.com/AgileTechPraxis/CodeSmells/tree/master/c-sharp">Repo Source</a>)
+<br />
+- Also explored with a containerised SonarQube, as was curious to see how much could be picked up by SonarQube by default:
+<img src="/sonars/initialCommit.PNG" border="1px solid black"/>
+(Doesn't seem like this would suffice. Guess the default SonarQube profile is <b>NOT</b> a replacement for code reviews after all. Also, have to put a screenshot for now as still figuring out how to export the data from a Dockerized instance of this tool.)
+</details>
+
