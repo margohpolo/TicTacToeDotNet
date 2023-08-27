@@ -1,3 +1,4 @@
+
 # My "Smelly" Journey
 
 [Original README](README_original.md)
@@ -26,6 +27,10 @@ This documentation is in reverse chronological order.
 
 ### Updates:
 
+<details>
+<summary><b>27/08/2023 (2nd Update)</b></summary>
+- Upgraded to .Net 6, as curious to try out the <a href="https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.upgradeassistant">.NET Upgrade Assistant</a>. Verdict: Pretty smooth, at least on a teeny-tiny, small scale &#128513
+</details>
 
 <details>
 <summary><b>27/08/2023</b></summary>
