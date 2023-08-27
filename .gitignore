@@ -1,0 +1,6 @@
+.sonarqube
+.vscode
+*/bin
+*/obj
+.fake
+.ionide
