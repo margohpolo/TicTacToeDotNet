@@ -1,5 +1,4 @@
-﻿
-namespace TicTacToe
+﻿namespace TicTacToe.TileNS
 {
     public class Tile
     {

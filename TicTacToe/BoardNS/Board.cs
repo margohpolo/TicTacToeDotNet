@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using TicTacToe.TileNS;
 
-namespace TicTacToe
+namespace TicTacToe.BoardNS
 {
     public class Board
     {
